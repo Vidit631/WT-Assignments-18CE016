@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script type="text/javascript">
+		function alertValidate(){
+			alert("Validate Button Clicked");
+		}
+
+		function alertReset(){
+			alert("Reset Button Clicked");
+		}
+
+		function alertSubmit(){
+			alert("Submit Button Clicked");
+		}
+
+	</script>
+</head>
+<body>
+    <form>
+    	<fieldset>
+    		<legend>Student Information</legend>
+    	Name: <input type="text" name="myName"><br><br>
+    	Age: <input type="number" name="myAge" min="1"><br><br>
+    	Gender:<br> 
+    	Male<input type="radio" name="myGender">
+    	Female<input type="radio" name="myGender"><br><br>
+    	Date of Birth: <input type="Date" name="myDOB"><br><br>
+    	Email: <input type="Email" name="myEmail"><br><br>
+    	Mobile Number: <input type="Mobile" name="myMobile"><br><br>
+    	<button type="Validate" onclick="alertValidate()">Validate</button>
+    	<button type="Reset" onclick="alertReset()">Reset</button>
+    	<button type="Submit" onclick="alertSubmit()">Submit</button>
+    	</fieldset>
+    </form>
+</body>
+</html>
